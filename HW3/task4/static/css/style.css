@@ -1,0 +1,55 @@
+
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: Inter, sans-serif;
+}
+
+.reference {
+color: cornflowerblue;
+font-size: 16px;
+line-height: 20px;
+}
+
+.reference:hover {
+  color: green;
+}
+.reference:active {
+  background-color: rgb(124, 128, 0);
+}
+
+.h1_header {
+color: #222222;
+line-height: 36px;
+font-size: 28px;
+font-weight: bold;
+}
+.h2_header {
+color: coral;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 80px;
+}
+
+
+.paragraph {
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+color: #7D7987
+}
+
+.menu {
+ text-align: left;
+ margin: 2pc;
+ padding: auto;
+
+}
+
+
+
+

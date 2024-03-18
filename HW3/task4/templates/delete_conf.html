@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+ <h3> {{message}} </h3>
+    <form >
+
+        <button type="submit" formmethod="post">Да</button>
+        <button type="button" onclick="window.location.href = '/del/';">Нет</button>
+    </form>
+
+{% endblock %}

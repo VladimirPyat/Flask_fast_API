@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Мой сайт
+        {% endblock %}
+
+    </title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="head_menu">
+    <a class="reference" href="/add/">Добавить пользователя</a>
+    <a class="reference" href="/list/">Просмотр базы</a>
+    <a class="reference" href="/del/">Удалить пользователя</a>
+</div>
+    {% block content %}
+        Страница в разработке
+    {% endblock %}
+
+</body>
+</html>
